@@ -87,3 +87,7 @@ ENV/
 
 # Rope project settings
 .ropeproject
+.idea
+.chalice
+.chalice/deployments/
+.chalice/venv/
