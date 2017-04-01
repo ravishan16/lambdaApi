@@ -1,2 +1,2 @@
 # lambdaApi
-AWS Lambda api using chalice
+Boilerplate for AWS Lambda api using chalice
