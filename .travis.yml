@@ -12,4 +12,4 @@ install:
 script: nosetests
 
 after_success:
-  - pylint app
+  - pylint lambdaapi
