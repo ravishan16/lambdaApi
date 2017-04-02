@@ -1,7 +1,16 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+"""Test for lambdaApi."""
+
+import json
 import lambdaapi.app as app
 
+
 class TestApp:
-    def test_count(self):
-        assert 1 == app.count()
+    """TestApp class."""
+
+    def test_echo_name(self):
+        """Test echo_name function."""
+        expected = json.dumps({'hello': 'world'})
+        actual = json.dumps(app.echo_name("world"))
+        assert expected == actual
