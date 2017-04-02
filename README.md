@@ -8,11 +8,10 @@ Boilerplate for AWS Lambda api using chalice
 - Exposes a new endpoint /echo/{name}
 - Response Json prints out name
 - Picks up the s3 bucket and region from lambda environment variable
-- Logs the request in s3
+- Logs the request in s3 (boto3)
 - Debuging enables logs can be viewed in cloud watch
-- Chalice deploy used to deploy the lambda fuction
-- Nosetests for unittest
-- travis-ci to build
+- Chalice deploy used to deploy the lambda function
+- travis-ci to build, run test
 - code climate for static code analysis and test coverage report
-  https://docs.codeclimate.com/v1.0/
-  https://docs.codeclimate.com/v1.0/docs/github#pull-requests 
+  [Code Climate Docs](https://docs.codeclimate.com/v1.0/)
+  [Code Climate pull-requests setup](https://docs.codeclimate.com/v1.0/docs/github#pull-requests)
