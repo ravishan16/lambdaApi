@@ -11,3 +11,8 @@ Boilerplate for AWS Lambda api using chalice
 - Logs the request in s3
 - Debuging enables logs can be viewed in cloud watch
 - Chalice deploy used to deploy the lambda fuction
+- Nosetests for unittest
+- travis-ci to build
+- code climate for static code analysis and test coverage report
+  https://docs.codeclimate.com/v1.0/
+  https://docs.codeclimate.com/v1.0/docs/github#pull-requests 
