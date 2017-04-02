@@ -16,26 +16,31 @@ lambdaApi- Boilerplate for building and deploying AWS Lambda function using chal
 - Chalice deploy used to deploy the lambda function
 - travis-ci to build, run test
 - code climate for static code analysis and test coverage report
-1 [Code Climate Docs](https://docs.codeclimate.com/v1.0/)
+  [Code Climate Docs](https://docs.codeclimate.com/v1.0/)
   [Code Climate pull-requests setup](https://docs.codeclimate.com/v1.0/docs/github#pull-requests)
 
 ### Clone and Install requirements
+
 ```python
   git clone git@github.com:ravishan16/lambdaApi.git
   pip install -r requirements.txt
 ```
 
 ### AWS Cli configure
-[AWS CLI CONFIGURE](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html#cli-command-line)
+
+- [AWS CLI CONFIGURE](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html#cli-command-line)
+
 ```python
   awscli configure
 ```
 
 ### Deploy code to AWS
+
 ```python
   cd lambdaApi/lambdaapi
   chalice deploy
 ```
 
 ## License
+
 [MIT](https://github.com/atom/atom/blob/master/LICENSE.md)
