@@ -1,4 +1,6 @@
 # lambdaApi
+[![Build Status](https://travis-ci.org/ravishan16/lambdaApi.svg?branch=feature)](https://travis-ci.org/ravishan16/lambdaApi)
+[![Code Climate](https://codeclimate.com/github/ravishan16/lambdaApi/badges/gpa.svg)](https://codeclimate.com/github/ravishan16/lambdaApi)
 Boilerplate for AWS Lambda api using chalice
 
 ## Simple Python App using Chalice and Boto
