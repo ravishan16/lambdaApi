@@ -3,6 +3,8 @@
 
 [![Build Status](https://travis-ci.org/ravishan16/lambdaApi.svg?branch=feature)](https://travis-ci.org/ravishan16/lambdaApi)
 [![Code Climate](https://codeclimate.com/github/ravishan16/lambdaApi/badges/gpa.svg)](https://codeclimate.com/github/ravishan16/lambdaApi)
+[![Test Coverage](https://codeclimate.com/github/ravishan16/lambdaApi/badges/coverage.svg)](https://codeclimate.com/github/ravishan16/lambdaApi/coverage)
+[![Issue Count](https://codeclimate.com/github/ravishan16/lambdaApi/badges/issue_count.svg)](https://codeclimate.com/github/ravishan16/lambdaApi)
 
 lambdaApi- Boilerplate for building and deploying AWS Lambda function using chalice
 
