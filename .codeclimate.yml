@@ -14,13 +14,15 @@ engines:
   radon:
     enabled: true
     config:
-      python_version: 2    
+      python_version: 2
 ratings:
   paths:
   - "**.inc"
   - "**.module"
   - "**.py"
 exclude_paths:
+- .pylintrc
+- .travis.yml
 - dist/
 - tests/
 - build/
